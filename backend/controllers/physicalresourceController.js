@@ -38,10 +38,12 @@ const updatep_resource = async (req,res,next) => {
     let resources;
     try{
         resources = await physical_resource.findByIdAndUpdate(id,{
-            title,
-            statement,
             catogory,
-            photo
+            chair,
+            whiteboard,
+            cupboards,
+            teacher_chair,
+            teacher_table
         });
         resources = await resources.save();
     }catch(err){
@@ -59,10 +61,12 @@ const addp_resource= async(req,res,next) => {
     let resources;
     try{
         resources =new Statement({
-            title,
-            statement,
             catogory,
-            photo
+            chair,
+            whiteboard,
+            cupboards,
+            teacher_chair,
+            teacher_table
         });
         await resources.save();
     }catch(err){
