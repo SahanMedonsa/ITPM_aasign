@@ -17,12 +17,12 @@ function Header() {
           <Nav className="me-auto">
             <Nav.Link href="#home">Human Resources</Nav.Link>
             <Nav.Link href="#features">Physical Resources</Nav.Link>
-            <Nav.Link href="#pricing">Statement</Nav.Link>
+            <Nav.Link href="/statement">Statement</Nav.Link>
           </Nav>
           <Navbar.Collapse className="justify-content-end">
             <Nav>
             <Nav.Link href="#pricing">Login</Nav.Link>
-            <Nav.Link href="#pricing">Logout</Nav.Link>
+            <Nav.Link href="#pricing">Register</Nav.Link>
             </Nav>
            
           </Navbar.Collapse>
