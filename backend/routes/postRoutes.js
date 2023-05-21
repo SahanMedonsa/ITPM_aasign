@@ -1,23 +1,11 @@
-const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
+const express = require("express");
+const router = express.Router();
+const postController = require("../controllers/postController");
 
-const PostSchema = new Schema({
-    caption:{
-        type: String,
-        require: true
-    },
+router.post("/addPost", postController.addPost);
+router.get("/getPost", postController.getAllPost);
+router.get("/getPost/:id", postController.getByID);
+router.put("/updatePost/:id", postController.updatePost);
+router.delete("/deletePost/:id", postController.deletePost);
 
-    category:{
-        type: String,
-        require: true
-    },
-
-    Photo:{
-        type: String,
-        require: true
-    }
- 
-})
-
-const Post = mongoose.model("Post", PostSchema);
-module.exports=Post;
+module.exports = router;

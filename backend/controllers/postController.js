@@ -1,4 +1,4 @@
-const post = require("../models/post");
+const Post = require("../models/post");
 
 //get all
 const getAllPost = async(req,res,next)=>{
@@ -64,7 +64,7 @@ const addPost = async (req ,res ,next) => {
     } catch(err){
         console.log(err);
     }
-    if(!feed){
+    if(!post){
         return res.status(500).json({ message: "unable to add"});
     }
     return res.status(201).json(post);
