@@ -43,7 +43,7 @@ function Post() {
         <Container>
             <br/>
             <br/>
-            <h1> පුක 2 </h1>
+            <h1> headline 1 </h1>
             <br/>
             <br/>
 
