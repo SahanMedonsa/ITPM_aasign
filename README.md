@@ -31,7 +31,8 @@ Solution for Problem 03-Forming a school committee comprising of school principa
 User Groups identified – 
 1. Ministry of Education    
 
-2.Academic Affairs consisting of the Board of Directors,Trustees and Principals responsible in looking at the problems arised in the school management system                        
+2.Academic Affairs consisting of the Board of Directors,Trustees and Principals responsible in looking at the problems arised in the school management system   
+
 3.Students  
 
 4.Student Affairs
