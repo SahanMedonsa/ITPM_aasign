@@ -28,7 +28,10 @@ Solution for Problem 02-Designing and developing of an Inter School Community wh
 
 Solution for Problem 03-Forming a school committee comprising of school principals, directors and other selected parties and developing a statement which facilitates the idea of collecting the necessary funds needed for the development of the schools and winning all challenges faced in the existing school management system  
 
-User Groups identified – 1. Ministry of Education  
-                         2.Academic Affairs consisting of the Board of Directors,Trustees and Principals responsible in looking at the problems arised in the school                                    management system 
-                         3.Students  
-                         4.Student Affairs
+User Groups identified – 
+1. Ministry of Education    
+
+2.Academic Affairs consisting of the Board of Directors,Trustees and Principals responsible in looking at the problems arised in the school management system                        
+3.Students  
+
+4.Student Affairs
