@@ -12,10 +12,6 @@ const PORT = process.env.PORT || 8093;
 app.use(cors())
 app.use(bodyParser.json());
 
-const postrouter = require("./routes/postRoutes");
-app.use("/post", postrouter);
-
-
 //connect mongoose
 mongoose.connect(process.env.link , {
     useNewUrlParser: true,
