@@ -74,7 +74,7 @@ const addStatments = async(req,res,next) => {
 };
 
 //delete statment
-const deleteStatment =async(req,res,next) =>{ 
+const deleteStatment = async (req,res,next) =>{ 
     const id=req.params.id;
     let statements;
     try{
