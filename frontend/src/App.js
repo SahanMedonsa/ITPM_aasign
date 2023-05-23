@@ -1,9 +1,9 @@
 import react from "react";
 import {Route, Routes, BrowserRouter} from 'react-router-dom';
 import Statement from "./component/statement/statement";
+import UpdateStatement from "./component/statement/updateStatement";
 import './App.css';
 import Header from "./component/header";
-import Post from "./component/post/post";
 
 function App() {
   return (
@@ -11,7 +11,8 @@ function App() {
       <Header/>
       <Routes>
       <Route path="/statement" element={<Statement/>} />
-      <Route path="/post" element={<Post/>} />
+      <Route path="/updateStatement/:_id" element={<UpdateStatement/>}   />
+      
       </Routes>
     </BrowserRouter>
 
